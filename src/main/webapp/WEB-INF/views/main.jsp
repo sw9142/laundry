@@ -122,7 +122,6 @@ uri="http://java.sun.com/jsp/jstl/core" %>
         </div>
       </div>
     </div>
-
     <script>
       $(document).ready(function () {
         $("#fullpage").fullpage({
@@ -133,9 +132,7 @@ uri="http://java.sun.com/jsp/jstl/core" %>
           scrollOverflow: true,
         });
 
-        // $(window).scroll(function () {
-        //   // $(".active").children().children().addClass("ani_fadeIn");
-        // });
+     
 
         $(window).on("scroll", function () {
           console.log("scrolling!");
